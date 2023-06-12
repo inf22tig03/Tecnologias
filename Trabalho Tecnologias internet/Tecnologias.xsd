@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Tecnologias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tecnologias">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PrimeiraPágina">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="descrição" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SegundaPágina">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome" type="xs:string" />
+                    <xs:element name="descrição" type="xs:string" />
+                    <xs:element name="Linguagem" type="xs:string" />
+                    <xs:element maxOccurs="unbounded" name="List">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nome" type="xs:string" />
+                          <xs:element name="anoLançamento" type="xs:unsignedShort" />
+                          <xs:element name="preço">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:unsignedShort">
+                                  <xs:attribute name="currency" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="TerceiraPagina">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome" type="xs:string" />
+                    <xs:element name="descrição" type="xs:string" />
+                    <xs:element name="Linguagem" type="xs:string" />
+                    <xs:element maxOccurs="unbounded" name="List">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nome" type="xs:string" />
+                          <xs:element name="anoLançamento" type="xs:unsignedShort" />
+                          <xs:element name="fabricante" type="xs:string" />
+                          <xs:element name="Processador" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="QuartaPagina">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome" type="xs:string" />
+                    <xs:element name="descrição" type="xs:string" />
+                    <xs:element maxOccurs="unbounded" name="List">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nome" type="xs:string" />
+                          <xs:element name="Tamanho" type="xs:string" />
+                          <xs:element name="Resolução" type="xs:string" />
+                          <xs:element name="Taxa" type="xs:string" />
+                          <xs:element name="Resposta" type="xs:string" />
+                          <xs:element name="Portas" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
