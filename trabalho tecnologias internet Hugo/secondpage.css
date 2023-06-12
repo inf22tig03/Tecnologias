@@ -1,0 +1,14 @@
+body {
+    background-image: url("oculus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: red;
+}
