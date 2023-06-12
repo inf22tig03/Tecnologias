@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Tecnologias>
+    <tecnologias>
+    <PrimeiraPágina>
+      <descrição>
+      Apresentação da primeira página e explicação do que vai ser apresentado nas 3 páginas 
+      </descrição>
+    </PrimeiraPágina>
+    <SegundaPágina>
+         <nome>Realidade Virtual</nome>
+         <descrição>
+          Tecnologia de interface entre o usuário e um sistema através de recursos gráficos 3D ou imagens 360º,
+          tendo como objetivo de criar a sensação de presença em um ambiente criado pelo sistema, sendo realizado
+          através de equipamentos computacionais.
+         </descrição>
+         <Linguagem>eng,PT</Linguagem>
+        <List>
+         <nome>Oculos Rift</nome>
+         <anoLançamento>2016</anoLançamento>
+         <preço currency="Euro">300</preço>
+        </List>
+        <List>
+         <nome>Meta Quest</nome>
+         <anoLançamento>2020</anoLançamento>
+         <preço currency="Euro">400</preço>
+        </List>
+    </SegundaPágina>
+    <TerceiraPagina>
+       <nome>Telemóveis</nome>
+       <descrição>
+       Um telemóvel combina vários recursos de computadores pessoais com funcionalidades avançadas que podem ser 
+       estendidas por meio de programas aplicativos executados pelo seu sistema operacional, permitindo que desenvolvedores 
+       iem milhares de programas adicionais, com diversas utilidades, agregados em lojas online como o Google Play para Android e a Apple App Store para iOS.
+       </descrição>
+       <Linguagem>eng,PT</Linguagem>
+      <List>
+       <nome>Nubia Red Magic 7S</nome>
+       <anoLançamento>2022</anoLançamento>
+       <fabricante>Nubia</fabricante>
+       <Processador>Snapdragon 8 Plus Gen 1</Processador>
+      </List>
+      <List>
+       <nome>Asus ROG Phone 6</nome>
+       <anoLançamento>2022</anoLançamento>
+       <fabricante>Asus</fabricante>
+       <Processador>Snapdragon 8 Plus Gen 1</Processador>
+      </List>
+      <List>
+       <nome>	iQOO 10 Pro</nome>
+       <anoLançamento>2022</anoLançamento>
+       <fabricante>Vivo</fabricante>
+       <Processador>Snapdragon 8 Plus Gen 1</Processador>
+      </List>
+      <List>
+       <nome>Xiaomi 12S Pro</nome>
+       <anoLançamento>2022</anoLançamento>
+       <fabricante>Xiaomi</fabricante>
+       <Processador>Snapdragon 8 Plus Gen 1</Processador>
+      </List>
+      <List>
+       <nome>Realme GT 2 Master Explorer</nome>
+       <anoLançamento>2022</anoLançamento>
+       <fabricante>Realme</fabricante>
+       <Processador>Snapdragon 8 Plus Gen 1</Processador>
+     </List>
+    </TerceiraPagina>
+    <QuartaPagina>
+     <nome>Monitores </nome>
+     <descrição>
+     Um dispositivo de saída que apresenta ao utilizador informações, que são processados pelo CPU ou que foram inseridos pelo utilizador.
+     </descrição>
+     <List>
+      <nome>Monitor Gaming Philips 144 Hz Full HD de 27''</nome>
+      <Tamanho>27 polegadas</Tamanho>
+      <Resolução>FullHD(1920x1080)</Resolução>
+      <Taxa>144Hz</Taxa>
+      <Resposta>1ms</Resposta>
+      <Portas>HDMI,DisplayPort</Portas>
+     </List>
+     <List>
+     <nome>Monitor Philips 4K de 28''</nome>
+      <Tamanho>27 polegadas</Tamanho>
+      <Resolução>4K UHD (3840 × 2160)</Resolução>
+      <Taxa>60Hz</Taxa>
+      <Resposta>4ms</Resposta>
+      <Portas>HDMI,DisplayPort</Portas>
+     </List>
+     <List>
+     <nome>Monitor Gaming curvo 4K Samsung Odyssey Ark de 55''</nome>
+      <Tamanho>55 polegadas</Tamanho>
+      <Resolução>FullHD (1920 × 1080)</Resolução>
+      <Taxa>165Hz</Taxa>
+      <Resposta>1ms</Resposta>
+      <Portas>HDMI,DisplayPort,VGA,USB-C</Portas>
+     </List>
+     <List>
+     <nome>Monitor Gaming ACER Predator Quad HD 270 Hz de 32''</nome>
+      <Tamanho>32 polegadas</Tamanho>
+      <Resolução>Quad HD (2560 × 1440)</Resolução>
+      <Taxa>165Hz</Taxa>
+      <Resposta>1ms</Resposta>
+      <Portas>HDMI,DisplayPort,USB</Portas>
+     </List>
+    </QuartaPagina>
+    </tecnologias>
+</Tecnologias>

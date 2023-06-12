@@ -1,0 +1,103 @@
+body{
+    background-image: url("fundo1.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+   background-attachment: fixed ;
+}
+h2{
+    width:100%;
+    text-align: center;
+}
+table{
+    left:20%;
+    text-align: center;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    background:#2196f3;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+
+}
+td{
+    font-family: 'Open Sans', sans-serif;
+}
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+table, td,th{
+    border:1px solid#000;
+    border-collapse: collapse;
+}
+.p1{
+    color:purple;
+}
+.p2{
+    color:red;
+}
+.p3{
+    color:cadetblue;
+}
+.p4{
+    color: mediumaquamarine;
+}
+.p5{
+    color:burlywood;
+}
+.img1{
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img2{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img3{
+    display: block;
+    width: 400px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img4{
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img5{
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (max-width:400px ){
+    table{
+        left:20%;
+        text-align: center;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+@media only screen and (max-width:700px) {
+    table{
+        left:20%;
+        text-align: center;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+}

@@ -1,0 +1,41 @@
+img{
+    width: 50%;
+    text-align: left;
+}
+body{
+    background-image: url("fundo.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:black;
+}
+p{
+    color:aqua;
+}
+h1{
+    color:white;
+}
+h3{
+    color:lightgreen;
+}
+table,th,td{
+    border:2px solid lightgrey;
+    border-collapse: collapse;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+}
+@media only screen and (max-width:500px ){
+   .table thead{
+    display: none;
+   }
+   .table, .table tbody, .table tr, .table td{
+    display: block;
+    width: 100%;
+   }
+   img{
+    width: 30%;
+    text-align: left;
+   }
+}
